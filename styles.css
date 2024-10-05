@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+
+.nav ul li {
+    margin: 0 10px;
+    text-align: right;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    text-align: right;
+}
+
+.header-buttons .btn {
+    margin-left: 15px;
+    text-align: right;
+}
+
+.primary-btn {
+    background-color: #ff5a3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.secondary-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+}
+
+.hero-content p {
+    margin: 20px 0;
+}
+
+/* Featured Property Section */
+.featured-property {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-property h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.property-info ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.property-info ul li {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+/* Property Listing Section */
+.property-listing {
+    padding: 50px 0;
+}
+
+.properties {
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-card {
+    width: 30%;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.property-details h3 {
+    margin: 15px 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.topnav {
+    text-align: right;
+  }
+
+
+#navItem1 {
+    color: orangered;
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+    padding: 10px;
+}
+.text{
+    text-align: left;
+}
+
+
+
+
+
+/* Featured Property Section */
+.featured-property {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+
+.featured-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.featured-header h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.featured-header p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Layout for Featured Content */
+.featured-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-image {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.featured-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-details {
+    flex: 1.2;
+}
+
+.featured-details h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.featured-details p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.property-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.property-features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.property-features li::before {
+    content: '✔';
+    color: #ff5a3c;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.primary-btn {
+    background-color: #ff5a3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #e64b2b;
+}
+
+
+/* Get Closer View Section */
+.closer-view {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.closer-header h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.closer-video {
+    position: relative;
+    display: inline-block;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.closer-video img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.play-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.play-btn img {
+    width: 50px;
+    height: 50px;
+}
+.style{
+    font-size: 30px;
+}
+
+
+
+
+/* Best Deal Section */
+.best-deal {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.deal-header h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.deal-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Property Card */
+.property-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.property-card:hover {
+    transform: translateY(-10px);
+}
+
+.property-card img {
+    width: 100%;
+    height: auto;
+}
+
+.property-info {
+    padding: 20px;
+}
+
+.property-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.property-details {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.property-details li {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.primary-btn {
+    background-color: #ff5a3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #e64b2b;
+}
